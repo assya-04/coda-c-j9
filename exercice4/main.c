@@ -42,6 +42,7 @@ int main()
 
 
 
-
+	free(perso->name);
+	free(perso);
 	return 0;
 }
